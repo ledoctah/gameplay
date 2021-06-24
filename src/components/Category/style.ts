@@ -1,19 +1,18 @@
-import { StyleSheet } from "react-native";
-import { getStatusBarHeight } from "react-native-iphone-x-helper";
-import { theme } from "../../global/styles/theme";
+import { StyleSheet } from 'react-native';
+import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
   container: {
     width: 104,
     height: 120,
-    borderRadius: 8,
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 8,
     marginRight: 8,
   },
   content: {
     width: 100,
-    height: 100,
+    height: 116,
     backgroundColor: theme.colors.secondary40,
     borderRadius: 8,
     justifyContent: 'space-between',
@@ -42,5 +41,5 @@ export const styles = StyleSheet.create({
     alignSelf: 'flex-end',
     marginRight: 7,
     borderRadius: 3,
-  },
+  }
 });
